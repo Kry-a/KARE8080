@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="512" Height="448"
+        x:Class="KARE8080.MainWindow"
+        Title="KARE8080">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Run">
+                <MenuItem Header="_Space Invaders" Command="{Binding RunSpaceInvaders}"/>
+            </MenuItem>
+            <MenuItem Header="_Run" Command="{Binding ExitQ}"/>
+        </Menu>
+    </DockPanel>
+</Window>
